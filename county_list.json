@@ -1,0 +1,11 @@
+{
+    "Mccormick": {
+        "state": "SC",
+        "data_type": "WTHGIS",
+        "links": [
+            "https://mccormicksc.wthgis.com/tgis/custom.aspx?DSID=46&RequestType=CustomSearchRequest&SearchType=Name&SearchCriteria=NAMEHERE|",
+            "https://mccormicksc.wthgis.com/tgis/custom.aspx?DSID=46&MapID=5&RequestType=PrintParcelPDF&FeatureID=VALUEHERE"
+        ],
+        "notes": "last name only"
+    }
+}
