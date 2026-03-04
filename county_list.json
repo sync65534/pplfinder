@@ -3,9 +3,36 @@
         "state": "SC",
         "data_type": "WTHGIS",
         "links": [
-            "https://mccormicksc.wthgis.com/tgis/custom.aspx?DSID=46&RequestType=CustomSearchRequest&SearchType=Name&SearchCriteria=NAMEHERE|",
+            "https://mccormicksc.wthgis.com/tgis/custom.aspx?DSID=46&RequestType=CustomSearchRequest&SearchType=Name&SearchCriteria=LASTNAME|",
             "https://mccormicksc.wthgis.com/tgis/custom.aspx?DSID=46&MapID=5&RequestType=PrintParcelPDF&FeatureID=VALUEHERE"
         ],
-        "notes": "last name only"
+        "notes": "LNM"
+    },
+    "Marlboro": {
+        "state": "SC",
+        "data_type": "WTHGIS",
+        "links": [
+            "https://marlborosc.wthgis.com/tgis/custom.aspx?DSID=2558&RequestType=CustomSearchRequest&SearchType=Name&SearchCriteria=LASTNAME|FIRSTNAME",
+            "http://williamsburg.sc.wthgis.com/tgis/custom.aspx?DSID=2558&MapID=6&RequestType=PrintParcelPDF&FeatureID=VALUEHERE"
+        ],
+        "notes": "LNM FNO"
+    },
+    "Dillon": {
+        "state": "SC",
+        "data_type": "WTHGIS",
+        "links": [
+            "https://dillonsc.wthgis.com/tgis/custom.aspx?DSID=1042&RequestType=CustomSearchRequest&SearchType=Name&SearchCriteria=LASTNAME|FIRSTNAME",
+            "http://dillon.sc.wthgis.com/tgis/custom.aspx?DSID=1042&MapID=6&RequestType=PrintParcelPDF&FeatureID=VALUEHERE"
+        ],
+        "notes": "LNM FNO"
+    },
+    "Chesterfield": {
+        "state": "SC",
+        "data_type": "WTHGIS",
+        "links": [
+            "https://chesterfieldsc.wthgis.com/tgis/custom.aspx?DSID=6796&RequestType=CustomSearchRequest&SearchType=Name&SearchCriteria=LASTNAME|undefined",
+            "http://chesterfield.sc.wthgis.com/tgis/custom.aspx?DSID=6796&MapID=99&RequestType=PrintParcelPDF&FeatureID=VALUEHERE"
+        ],
+        "notes": "LNM"
     }
 }
