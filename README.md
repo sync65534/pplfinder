@@ -1,6 +1,9 @@
 # pplfinder
 Tool to find people in the US via property records 
 #
+# WARNING
+this tool generates a LOT of traffic, and if county site policies are to become more strict, it is crucial to use a VPN, preferably rotating
+#
 # Usage
 (in-line)
 ```python
