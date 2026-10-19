@@ -6,7 +6,7 @@ from pathlib import Path
 from urllib.parse import quote_plus
 import requests
 from tqdm import tqdm
-import lambda3
+import extractions.py
 
 
 DEFAULT_COUNTY_FILE = Path("county_list_by_state.json")
