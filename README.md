@@ -2,9 +2,33 @@
 Tool to find people in the US via property records 
 #
 # Usage
+(in-line)
 ```python
 import pplfinder
-pplfinder.find("firstname", "lastname")
+pplfinder.find(first_name="firstname", last_name="lastname", state_filter="Georgia", county_filter="Richmond")
+```
+(command)
+```bash
+# First name only
+python main.py -f John
+
+# Last name only
+python main.py -l Johnson
+
+# Both names
+python main.py -b John Johnson
+
+# Search just Georgia
+python main.py -b John Johnson --state Georgia
+
+# Search one county
+python main.py -b John Johnson --state Georgia --county Richmond
+
+# Use another configuration file
+python main.py -f John --county-file /path/to/counties.json
+
+# Disable the progress bar
+python main.py -f John -n
 ```
 #
 # Workflow and conventions for development
