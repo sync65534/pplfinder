@@ -35,13 +35,14 @@ python main.py -f John -n
 The `county_list.json` file is used to load each `County` object into the program, and is in json formatting for readability in updating. If you or i am to update the file, it must be in the following form
 ```json
 {
-    "COUNTY NAME": {
-        "state": "STATE ABBREVIATION",
-        "data_type": "DATA TYPE",
-        "links": [
-            "LINKS TO BE INTERPRETED BY THE EXTRACTOR, COORESPONDING TO DATA TYPE"
-        ],
-        "notes": "ANY NOTES FOR DEVELOPMENT"
+    "STATE NAME": {
+        "COUNTY NAME": {
+            "data_type": "DATA TYPE",
+            "links": [
+                "LINKS TO BE INTERPRETED BY THE EXTRACTOR, COORESPONDING TO DATA TYPE"
+            ],
+            "notes": "ANY NOTES FOR DEVELOPMENT"
+        }
     }
 }
 ```
