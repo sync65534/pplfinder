@@ -9,7 +9,7 @@ from tqdm import tqdm
 import lambda3
 
 
-DEFAULT_COUNTY_FILE = Path("/home/tris/stalking/county_list_by_state.json")
+DEFAULT_COUNTY_FILE = Path("county_list_by_state.json")
 REQUEST_TIMEOUT = 15
 DATA_EXTRACTORS = {
     "WTHGIS": lambda3.WTHGIS_extract,
